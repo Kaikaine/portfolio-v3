@@ -4,7 +4,7 @@
   "description": "Portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwind build src/styles.css -o public/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,5 @@
     "url": "https://github.com/Kaikaine/portfolio-v3/issues"
   },
   "homepage": "https://github.com/Kaikaine/portfolio-v3#readme",
-  "dependencies": {
-    "tailwindcss": "^1.1.4"
-  }
+  "dependencies": {}
 }

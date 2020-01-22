@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-top {
+  background: url("img/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 21rem;
+}
+
+.home-top ul {
+  padding-top: 3rem;
+  list-style-type: none;
+  color: white;
+}
+/* JUMBOTRON MEDIA QUERY */
+@media (min-width: 721px) {
+  .home-top {
+    background: url("img/emile-perron-xrVDYZRGdw4-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40rem;
+  }
+
+  .home-top ul {
+    padding-top: 5rem;
+    list-style-type: none;
+    color: white;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* TOP CONTENT */
+
+.top-content .row {
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.top-content .row .pic-1 {
+  background: url("img/Code.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 100%;
+}
+
+.top-content .row .pic-2 {
+  background: url("img/Programmer.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 100%;
+}
+
+.top-content .row .text,
+.top-content .row p {
+  margin-top: 1rem;
+}
+
+.top-content button {
+  background: white;
+  border: 1px solid black;
+  width: 100%;
+  padding: 3%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* TOP CONTENT MEDIA QUERY */
+@media (min-width: 721px) {
+  .top-content .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .top-content .row-1 {
+    flex-direction: row-reverse;
+  }
+
+  .top-content .row .pic-1,
+  .top-content .row .pic-2,
+  .top-content .row .text {
+    width: 45%;
+  }
+
+  .pic-1 {
+    margin-left: 10%;
+  }
+
+  .pic-2 {
+    margin-right: 10%;
+  }
+
+  .top-content .text {
+    width: 93%;
+  }
+}
+
+/* MAIN CONTENT */
+
+.row .venue {
+  background: url("img/Ariana.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 100%;
+}
+
+.row .two-man {
+  background: url("img/Two-man.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 100%;
+}
+
+.row .dev {
+  background: url("img/Devconnector.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20rem;
+  width: 100%;
+}
+
+.row .venue .caption h3,
+.row .two-man .caption h3,
+.row .dev .caption h3 {
+  background: #d8d8d8;
+  margin-top: 16rem;
+  padding: 7%;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.text-1 {
+  margin-top: 5rem;
+}
+
+.text-2 {
+  margin-bottom: -5rem;
+}
+/* MAIN CONTENT MEDIA QUERY */
+@media (min-width: 768px) {
+  .row .venue {
+    background: url("img/Ariana.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40rem;
+    width: 100%;
+  }
+
+  .row .two-man {
+    background: url("img/Two-man.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40rem;
+    width: 100%;
+  }
+
+  .row .dev {
+    background: url("img/Devconnector.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40rem;
+    width: 100%;
+  }
+
+  .row .venue .caption h3,
+  .row .dev .caption h3 {
+    background: #d8d8d8;
+    margin-top: 35rem;
+    padding: 7%;
+    width: 39%;
+    margin-left: 61%;
+    text-align: center;
+    height: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .row .two-man .caption h3 {
+    background: #d8d8d8;
+    margin-top: 35rem;
+    padding: 7%;
+    width: 39%;
+    margin-left: 0;
+    margin-right: 61%;
+    text-align: center;
+    height: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .text-2 {
+    margin-bottom: 0;
+  }
+
+  .text-1,
+  .text-2 {
+    width: 51%;
+    margin-left: 21%;
+  }
+}
+
+/* FOOTER */
+footer {
+  background: #828282;
+  color: white;
+  padding: 2rem;
+  margin-top: 7rem;
+}
+
+.form-text {
+  color: white !important;
+}
+/* FOOTER MEDIA QUERY */
+@media (min-width: 887px) {
+  .copy {
+    text-align: center;
+  }
+}
