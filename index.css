@@ -158,7 +158,7 @@
 /* MAIN CONTENT MEDIA QUERY */
 @media (min-width: 768px) {
   .row .venue {
-    background: url("img/Ariana.png");
+    background: url("img/Natours.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
